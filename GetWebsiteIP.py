@@ -45,7 +45,7 @@ class Main:
         thisRegion = location_data["region"]
         thisCountry = location_data["country"]
         
-        self.Lbl_Rslts(text = thisIp + '/n' + thisCity + '/n' + thisRegion + '/n' + thisCountry)
+        self.Lbl_Rslts(text = thisIp + '\n' + thisCity + '\n' + thisRegion + '\n' + thisCountry)
 
         return location_data
 
